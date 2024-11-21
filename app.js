@@ -41,3 +41,7 @@ seeMoreBtn.forEach(button => {
         Carousel.classList.add('showDetail');
     }
 })
+
+backBtn.onclick = function(){
+    Carousel.classList.remove('showDetail');
+}
